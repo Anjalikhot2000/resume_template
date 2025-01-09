@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 20px;
+  margin-bottom: 15px; /* Slightly reduced spacing */
 }
 
 .header-left {
@@ -58,7 +58,11 @@ body {
 }
 
 .section {
-  margin-bottom: 20px;
+  margin-bottom: 18px; /* Reduced spacing between sections */
+}
+
+.section.work-experience {
+  margin-top: -10px; /* Moved up slightly */
 }
 
 .section h3 {
@@ -106,4 +110,3 @@ ul li {
   transform: scale(1.05);
   cursor: pointer;
 }
-
