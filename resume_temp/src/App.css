@@ -3,19 +3,17 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f8f9fc;
-  color: #333;
-  
+  color: #fff;
 }
 
 .resume {
   max-width: 900px;
   margin: 20px auto;
   padding: 20px;
-  background-color: black;
+  background-color: #000; /* Black background */
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  align-items: center;
-  font:white;
+  color: #fff; /* White text */
 }
 
 .header {
@@ -23,27 +21,23 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 20px;
-  font:white;
 }
 
 .header-left {
   flex: 1;
   padding-right: 20px;
-  font:white;
-  
 }
 
 .header-left h1 {
   margin: 0;
   font-size: 28px;
-  color: #2c3e50;
-
+  color: #fff; /* White heading text */
 }
 
 .header-left .title {
   font-size: 18px;
   font-weight: bold;
-  color: #3498db;
+  color: #3498db; /* Blue for subheading */
 }
 
 .header-right {
@@ -60,7 +54,7 @@ body {
 .contact-info p {
   margin: 5px 0;
   font-size: 14px;
-  color: #555;
+  color: #bbb; /* Light gray for contact info */
 }
 
 .section {
@@ -69,7 +63,7 @@ body {
 
 .section h3 {
   font-size: 20px;
-  color: #2c3e50;
+  color: #3498db; /* Blue for subheadings */
   margin-bottom: 10px;
   border-bottom: 2px solid #3498db;
   display: inline-block;
@@ -96,11 +90,11 @@ ul li {
 
 .skills-list span {
   display: inline-block;
-  background-color: #ecf3fe;
+  background-color: #444; /* Dark gray background for skills */
   padding: 10px 15px;
   border-radius: 20px;
   font-size: 14px;
-  color: #3498db;
+  color: #3498db; /* Blue text for skills */
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease, transform 0.2s ease;
@@ -108,7 +102,8 @@ ul li {
 }
 
 .skills-list span:hover {
-  background-color: #d4e8fc;
+  background-color: #555; /* Slightly lighter gray on hover */
   transform: scale(1.05);
   cursor: pointer;
 }
+
