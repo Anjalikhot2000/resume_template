@@ -16,11 +16,11 @@ function App() {
     contact: {
       phone: "📞+9999999999",
       email: "📩 yourname@email.com",
-      address: "Ayush park, Talegaon, Pune -123456",
+      address: "🏠 Ayush park, Talegaon, Pune -123456",
     },
     references: [
       {
-        text: "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum is simply dummy text of the printing and typesetting industry.  Lorem ipsum is simply dummy text of the printing and typesetting industry.  Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+        text: "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
       },
       {
         text: "Another example of a reference text with editable content.",
@@ -38,7 +38,7 @@ function App() {
         years: "2002 - 2005",
       },
     ],
-    about: "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+    about: "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum is simply dummy text of the printing and typesetting industry.  Lorem ipsum is simply dummy text of the printing and typesetting industry.  Lorem ipsum is simply dummy text of the printing and typesetting industry.  Lorem ipsum is simply dummy text of the printing and typesetting industry.  Lorem ipsum is simply dummy text of the printing and typesetting industry.",
     jobExperience: [
       {
         title: "Senior Web Designer",
