@@ -14,9 +14,9 @@ function App() {
       skills: "Skills",
     },
     contact: {
-      phone: "+123-456-7890",
+      phone: "+9999999999",
       email: "yourname@email.com",
-      address: "Job Professional Street, Lincoln Park, MI 48146",
+      address: "Ayush park, Talegaon, Pune -123456",
     },
     references: [
       {
@@ -44,7 +44,7 @@ function App() {
         years: "2002 - 2005",
       },
     ],
-    about: "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+    about: "Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum is simply dummy text of the printing and typesetting industry.",
     jobExperience: [
       {
         title: "Senior Web Designer",
@@ -305,10 +305,10 @@ function App() {
       <div className="right-column">
         <div className="name-section">
           <h1 contentEditable="true" suppressContentEditableWarning>
-            Brian R. <span>Baxter</span>
+            Anjali <span>Khot</span>
           </h1>
-          <p contentEditable="true" suppressContentEditableWarning>
-            Graphic & Web Designer
+          <p id="status" contentEditable="true" suppressContentEditableWarning>
+            <b>Python Developer</b>
           </p>
         </div>
 
