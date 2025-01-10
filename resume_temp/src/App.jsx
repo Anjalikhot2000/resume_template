@@ -7,29 +7,23 @@ function App() {
   const [resumeData, setResumeData] = useState({
     titles: {
       contact: "Contact Me",
-      references: "References",
+      references: "Extra Curricular",
       education: "Education",
       about: "About Me",
       jobExperience: "Job Experience",
       skills: "Skills",
     },
     contact: {
-      phone: "+9999999999",
-      email: "yourname@email.com",
+      phone: "📞+9999999999",
+      email: "📩 yourname@email.com",
       address: "Ayush park, Talegaon, Pune -123456",
     },
     references: [
       {
-        name: "Darwin E. Magana",
-        position: "Hiring Manager, X Co.",
-        phone: "+1 555-123-5555",
-        email: "darwin@xmail.com",
+        text: "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum is simply dummy text of the printing and typesetting industry.  Lorem ipsum is simply dummy text of the printing and typesetting industry.  Lorem ipsum is simply dummy text of the printing and typesetting industry.",
       },
       {
-        name: "Robert B. Belvin",
-        position: "Manager, Y Co.",
-        phone: "+1 678-987-6543",
-        email: "robert@ycompany.com",
+        text: "Another example of a reference text with editable content.",
       },
     ],
     education: [
@@ -44,7 +38,7 @@ function App() {
         years: "2002 - 2005",
       },
     ],
-    about: "Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum is simply dummy text of the printing and typesetting industry.",
+    about: "Lorem ipsum is simply dummy text of the printing and typesetting industry.",
     jobExperience: [
       {
         title: "Senior Web Designer",
@@ -189,51 +183,12 @@ function App() {
                   onBlur={(e) =>
                     handleContentChange("references", [
                       ...resumeData.references.slice(0, index),
-                      { ...reference, name: e.target.textContent },
+                      { ...reference, text: e.target.textContent },
                       ...resumeData.references.slice(index + 1),
                     ])
                   }
                 >
-                  {reference.name}
-                </p>
-                <p
-                  contentEditable="true"
-                  suppressContentEditableWarning
-                  onBlur={(e) =>
-                    handleContentChange("references", [
-                      ...resumeData.references.slice(0, index),
-                      { ...reference, position: e.target.textContent },
-                      ...resumeData.references.slice(index + 1),
-                    ])
-                  }
-                >
-                  {reference.position}
-                </p>
-                <p
-                  contentEditable="true"
-                  suppressContentEditableWarning
-                  onBlur={(e) =>
-                    handleContentChange("references", [
-                      ...resumeData.references.slice(0, index),
-                      { ...reference, phone: e.target.textContent },
-                      ...resumeData.references.slice(index + 1),
-                    ])
-                  }
-                >
-                  {reference.phone}
-                </p>
-                <p
-                  contentEditable="true"
-                  suppressContentEditableWarning
-                  onBlur={(e) =>
-                    handleContentChange("references", [
-                      ...resumeData.references.slice(0, index),
-                      { ...reference, email: e.target.textContent },
-                      ...resumeData.references.slice(index + 1),
-                    ])
-                  }
-                >
-                  {reference.email}
+                  {reference.text}
                 </p>
               </li>
             ))}
